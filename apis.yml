@@ -1,8 +1,31 @@
 aid: swiftcomply
 name: SwiftComply
-description: SwiftComply is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SwiftComply is a cloud compliance-management platform for water utilities and
+  municipalities, used by more than 700 organizations across North America to
+  run their Backflow prevention, Stormwater (MS4), Industrial Pretreatment, and
+  FOG (Fats, Oils, and Grease) programs. The software replaces paper and
+  spreadsheet workflows with online program management, direct customer and
+  service-provider reporting, real-time compliance dashboards, audit-ready
+  timestamped record keeping, and pre-configured state reporting. SwiftComply
+  advertises API integrations with GIS, utility billing, and other municipal
+  platforms, and has held SOC 2 Type II certification since October 2021. The
+  company was surfaced as a Techstars portfolio company; this profile is
+  maintained by the API Evangelist network. No public developer portal, API
+  reference, or machine-readable API description was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/swiftcomply/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.swiftcomply.com/wp-content/uploads/2023/07/User-Friendly-Compliance-Management-Solutions-2023.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +34,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Compliance
+- Water Utilities
+- Environmental
+- Regulatory
+- Government
+- Backflow Prevention
+- Stormwater
+- Pretreatment
+- FOG
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +59,25 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/swiftcomply-domain-security.yml
 - type: Website
-  url: https://swiftcomply.io/
+  url: https://www.swiftcomply.com/
+- type: Pricing
+  url: https://www.swiftcomply.com/pricing/
+- type: Blog
+  url: https://www.swiftcomply.com/blog/
+- type: Support
+  url: https://intercom.help/swiftcomply/en/
+- type: TermsOfService
+  url: https://www.swiftcomply.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.swiftcomply.com/privacy-policy/
+- type: Login
+  url: https://login.c3swift.com/
+- type: GitHubOrganization
+  url: https://github.com/swiftcomply
+- type: Compliance
+  url: https://www.swiftcomply.com/trust-security/
+- type: TrustCenter
+  url: https://www.swiftcomply.com/trust-security/
